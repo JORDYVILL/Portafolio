@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Portafolio Jordy Villa</title>
+  <meta name="description" content="Portafolio de Jordy Villa, desarrollador de software independiente.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=JetBrains+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<div class="wrap">
+  <header class="nav">
+    <a class="logo" href="#inicio">&lt;JV<span>/</span>&gt;</a>
+    <nav aria-label="Secciones"><ul id="menu"></ul></nav>
+  </header>
+
+  <main>
+    <!-- inicio -->
+    <section class="view" data-view="inicio">
+      <p class="eyebrow">Hola, soy</p>
+      <h1 class="grad" id="nombre"></h1>
+      <p class="role" id="titulo"></p>
+      <p class="typed" id="tipeo-fila"><b>&gt;</b> <span id="tipeo"></span><span class="cur" aria-hidden="true"></span></p>
+      <p class="lead" id="bio"></p>
+      <div class="actions">
+        <a class="btn" href="#proyectos">Ver proyectos</a>
+        <a class="btn ghost" href="#contacto">Contactar</a>
+      </div>
+      <div class="explore" id="explorar"></div>
+    </section>
+
+    <!-- sobre mí -->
+    <section class="view" data-view="sobre-mi" hidden>
+      <h2>Sobre mí</h2>
+      <p class="sub">Lo esencial de quién soy y qué estudio.</p>
+      <div class="about">
+        <aside class="card perfil">
+          <div class="avatar" aria-hidden="true"><span>JV</span></div>
+          <h3 id="perfil-nombre"></h3>
+          <p id="perfil-rol"></p>
+          <span class="estado"><i></i>Desarrollador freelance</span>
+        </aside>
+        <div class="about-cards" id="sobre-mi-texto"></div>
+      </div>
+      <div id="educacion-lista"></div>
+    </section>
+
+    <!-- proyectos -->
+    <section class="view" data-view="proyectos" hidden>
+      <h2>Proyectos</h2>
+      <p class="sub">Lo que he construido. Filtra por tipo.</p>
+      <div class="filters" id="filtros" role="group" aria-label="Filtrar proyectos"></div>
+      <div class="grid" id="proyectos-lista"></div>
+    </section>
+
+    <!-- versionamiento -->
+    <section class="view" data-view="versionamiento" hidden>
+      <h2>Manejo de versionamiento</h2>
+      <p class="sub">Así trabajo con Git en cada proyecto. Toca un paso.</p>
+      <div class="steps" id="pasos" role="group" aria-label="Pasos de Git"></div>
+      <div class="term">
+        <div class="term-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+        <pre id="git-term" aria-live="polite"></pre>
+        <div class="term-note" id="git-nota"></div>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section class="view" data-view="habilidades" hidden>
+      <h2>Habilidades</h2>
+      <p class="sub">Herramientas que uso y cómo trabajo.</p>
+      <div class="grid" id="habilidades-lista"></div>
+    </section>
+
+    <!-- contacto -->
+    <section class="view" data-view="contacto" hidden>
+      <h2>Contacto</h2>
+      <p class="sub">¿Tienes un proyecto en mente? Escríbeme.</p>
+      <div class="mail">
+        <span class="addr" id="correo"></span>
+        <button class="btn" type="button" id="copiar">Copiar correo</button>
+      </div>
+      <div class="contact-links" id="contacto-links"></div>
+    </section>
+  </main>
+
+  <footer>© <span id="anio"></span> <span id="pie-nombre"></span></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

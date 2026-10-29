@@ -1,0 +1,137 @@
+{
+  "perfil": {
+    "nombre": "Jordy Joel Villa Velesaca",
+    "titulo": "Desarrollador de Software Independiente",
+    "bio": "Creo aplicaciones simples y ordenadas que resuelven problemas reales, con el código versionado en Git.",
+    "sobre_mi": [
+      {
+        "t": "Quién soy",
+        "x": "Estudiante de Ingeniería en Ciencias de la Computación, con proyectos independientes para empresas del sector transporte y servicios."
+      },
+      {
+        "t": "Qué hago",
+        "x": "Desarrollo aplicaciones y sistemas con base de datos, siempre con el código versionado en Git."
+      },
+      {
+        "t": "Cómo trabajo",
+        "x": "Primero entiendo el problema del cliente y luego construyo la solución más simple que funcione."
+      }
+    ]
+  },
+  "frases": [
+    "gestión de facturas",
+    "apps para conductores",
+    "código versionado con Git"
+  ],
+  "proyectos": [
+    {
+      "nombre": "Gestión de facturas",
+      "tipo": "App",
+      "descripcion": "Revisa, clasifica y organiza facturas, guardadas en una base de datos.",
+      "tecnologias": [
+        "Base de datos",
+        "Git"
+      ],
+      "funciones": [
+        "Búsqueda y filtros",
+        "Orden por estado y fecha"
+      ],
+      "enlaces": {
+        "github": "#proyectos",
+        "demo": "#proyectos"
+      }
+    },
+    {
+      "nombre": "Ubicaciones para conductores",
+      "tipo": "App",
+      "descripcion": "Los conductores consultan y guardan ubicaciones de forma ágil y sencilla.",
+      "tecnologias": [
+        "JSON",
+        "Mapas",
+        "Git"
+      ],
+      "funciones": [
+        "Puntos frecuentes",
+        "Acceso rápido a destinos"
+      ],
+      "enlaces": {
+        "github": "#proyectos",
+        "demo": "#proyectos"
+      }
+    },
+    {
+      "nombre": "Portafolio personal",
+      "tipo": "Web",
+      "descripcion": "Esta página: solo frontend, publicada en GitHub Pages.",
+      "tecnologias": [
+        "HTML",
+        "CSS",
+        "JSON"
+      ],
+      "funciones": [
+        "Diseño responsive",
+        "Contenido editable desde JSON"
+      ],
+      "enlaces": {
+        "github": "#proyectos",
+        "demo": "#proyectos"
+      }
+    }
+  ],
+  "pasos": [
+    {
+      "titulo": "Crear rama",
+      "cmd": "git checkout -b feature/filtro-facturas",
+      "nota": "Cada función nueva nace en su propia rama."
+    },
+    {
+      "titulo": "Commit",
+      "cmd": "git commit -m \"feat: filtro por estado\"",
+      "nota": "Mensajes claros que explican qué cambió y por qué."
+    },
+    {
+      "titulo": "Push",
+      "cmd": "git push origin feature/filtro-facturas",
+      "nota": "El código queda respaldado en GitHub."
+    },
+    {
+      "titulo": "Merge",
+      "cmd": "git merge feature/filtro-facturas",
+      "nota": "Se integra a main cuando está probado, y siempre se puede volver atrás."
+    }
+  ],
+  "habilidades": {
+    "Desarrollo": [
+      "HTML",
+      "CSS",
+      "JSON",
+      "Lógica de programación"
+    ],
+    "Herramientas": [
+      "Git",
+      "GitHub",
+      "VS Code"
+    ],
+    "Personales": [
+      "Comunicación",
+      "Autonomía",
+      "Organización"
+    ]
+  },
+  "educacion": [
+    {
+      "titulo": "Ingeniería en Ciencias de la Computación",
+      "lugar": "Universidad Católica de Santiago de Guayaquil",
+      "materias": [
+        "Métodos Formales de Software",
+        "Computación y Sociedad"
+      ]
+    }
+  ],
+  "contacto": {
+    "correo": "jordyvilla062@gmail.com",
+    "github": "https://github.com/tuusuario",
+    "linkedin": "https://linkedin.com/in/tuusuario",
+    "whatsapp": "https://wa.me/593000000000"
+  }
+}
